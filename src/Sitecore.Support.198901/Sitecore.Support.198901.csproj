@@ -74,10 +74,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ContentSearch\SolrProvider\SolrSearchIndex.cs" />
+    <Compile Include="ContentSearch\SolrProvider\SwitchOnRebuildSolrSearchIndex.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="App_Config\Include\zzz\Sitecore.Support.198901.config" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
